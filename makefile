@@ -9,3 +9,12 @@ MarkdownParse.class: MarkdownParse.java
 
 test: MarkdownParseTest.class
 	java -cp $(CLASSPATH) org.junit.runner.JUnitCore MarkdownParseTest 
+
+snip1: MarkdownParse.class
+	jdb MarkdownParse snippet-1.md
+
+snip2: MarkdownParse.class
+	jdb MarkdownParse snippet-2.md
+
+snip2: MarkdownParse.class
+	jdb MarkdownParse snippet-3.md
