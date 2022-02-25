@@ -1,7 +1,5 @@
-`[a link`](url.com)
+[a [nested link](a.com)](b.com)
 
-[another link](`google.com)`
+[a nested parenthesized url](a.com(()))
 
-[`cod[e`](google.com)
-
-[`code]`](ucsd.edu)
+[some escaped \[ brackets \]](example.com)

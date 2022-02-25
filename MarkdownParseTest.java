@@ -55,4 +55,5 @@ public class MarkdownParseTest {
         List<String> expect = List.of("https://ucsd-cse15l-w22.github.io/");
         assertEquals(expect, MarkdownParse.getLinks(contents));
     }
+    
 }
