@@ -8,9 +8,9 @@ public class MarkdownParse {
 
     // Loop with a stack until finding the corresponding closeParen
     static int findCloseParen(String markdown, int openParen) {
-        if (markdown.indexOf(")", openParen) == -1) {
-            return -1;
-        }
+        // if (markdown.indexOf(")", openParen) == -1) {
+        //     return -1;
+        // }
         int closeParen = openParen + 1;
         int openParenCount = 1;
         while (openParenCount > 0) {
